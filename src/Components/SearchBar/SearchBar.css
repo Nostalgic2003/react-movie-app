@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    align-items: center;
+}
+
+.searchTerm {
+    width: 350px;
+    padding: 12px 0 12px 8px;
+    border: 3px solid #ba0c0c;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.searchButton {
+    padding: 10px 14px 10px 14px;
+    background-color: #df0707;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .searchTerm {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px; 
+    }
+
+    .searchButton {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+}
