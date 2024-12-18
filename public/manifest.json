@@ -1,6 +1,6 @@
 {
-  "short_name": "???",
-  "name": "????????????",
+  "short_name": "Netflix",
+  "name": "Netflix sa Jupiter",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,21 +8,23 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#141414",
   "background_color": "#141414",
-  "description": "Browse and discover movies with WizPirate Movie App"
+  "description": "Browse and discover movies with WizPirate Movie App",
+  "orientation": "portrait",
+  "prefer_related_applications": false
 }
